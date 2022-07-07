@@ -1,0 +1,131 @@
+#293156kground-color: blue;
+
+body{
+    background-color: black;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+html{
+    font-size: 15px;
+}
+.logo{
+    margin-top: 2rem;
+    margin-left: 5.3rem;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9.2rem;
+    text-align: center;
+}
+
+.inicio{
+    background-color: goldenrod;
+    margin: 1.5rem auto;
+    width: 21rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    border-radius: 1.6rem;
+    padding: 0.5rem;
+}
+.agregar{
+    margin: 1.56rem auto;
+    width: 18.75rem;
+    height: 4.4rem;
+    font-size: 0.9rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+.inicio:hover{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.agregar:hover{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: goldenrod;
+    padding: 1em;
+    position: relative;
+    margin-bottom: none;
+}
+a,p{
+    font-size: 1.25rem;
+    margin: 0.93rem;
+    text-decoration: none;
+    color: black;
+}
+.ahorcado{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+#hombre{
+    width: 19.7rem;
+    height: 18.4rem;
+    background-color: rgba(255, 255, 255, 0.785);
+    display: inline-block;
+    padding: 2rem;
+}
+.adivinado{
+    text-align: center;
+}
+.adivinada{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.8rem;
+    color: red;
+    border-bottom: solid 1px red;
+    margin-left: 0.4rem ;
+    line-height: 4.5rem;
+}
+.errado{
+    text-align: center;
+    margin-top: 1rem;
+    color: greenyellow;
+}
+.errada{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.botones2{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+input:hover{
+    font-size: 19px;
+}
+#adicionar{
+   text-align: center;
+   margin-top: 4rem;
+   margin-bottom: 1rem;
+   
+}
+#palabra{
+    width: 25rem;
+    height:  10rem;
+    margin-bottom: 2rem;
+}
+#agrega, .jugar,.cancelar,.bcolor{
+    padding: 0.5em 2em;
+    border-radius: 2rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+#agrega,.bcolor{
+    background-color: goldenrod;
+}
+.info{
+    color: white;
+}
+.jugar,.cancelar{
+ background-color: white;
+}
