@@ -7,10 +7,10 @@ if (tx.length===0 || /^\s+$/.test(tx)){
     alert("escribe una palabra")
 }
 else if(/[^A-Z ]/.test(tx)){
-    alert("solo parabras mayúsculas y sin Tilde")
+    alert("solo palabras mayúsculas y sin Tilde")
 }else {
     alert("GUARDADO") 
-    localStorage.setItem("daniel",tx);
+    localStorage.setItem("hector",tx);
 }
 
 })
